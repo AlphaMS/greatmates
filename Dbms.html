@@ -11,127 +11,163 @@
 </head>
 <body>
     <div class="container">
-        <nav>
-            <div class="title"><h1>GREAT<sup>MATES</sup></h1></div>
-            <div class="navigation">
-                <span class="nav-mini"></span>
-                <span class="nav-mini"></span>
-                <span class="nav-mini"></span>
-            </div>
-            <input type="checkbox" style="display: none;" class="checkbox">
-            <div class="menu">
-                <ul>
-                    <a href="index.html"><li>Home</li></a>
-                    <li>20GM
+        <div class="wrapper">
+            <nav>
+              <input type="checkbox" id="show-search">
+              <input type="checkbox" id="show-menu">
+              <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+              <div class="content">
+              <div class="logo"><a href="#">Great Mates</a></div>
+                <ul class="links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li>
+                    <a href="#" class="desktop-link">20Greatmates</a>
+                    <input type="checkbox" id="show-services">
+                    <label for="show-services">20Greatmates</label>
+                    <ul>
+                        <li>
+                            <a href="#" class="desktop-link">DBMS</a>
+                            <input type="checkbox" id="show-items">
+                            <label for="show-items">DBMS</label>
+                            <ul>
+                              <li><a href="#">Lab</a></li>
+                              <li><a href="#">Theory</a></li>
+                              <li><a href="#">Exams</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#" class="desktop-link">JAVA</a>
+                            <input type="checkbox" id="show-items">
+                            <label for="show-items">JAVA</label>
+                            <ul>
+                              <li><a href="#">Lab</a></li>
+                              <li><a href="#">Theory</a></li>
+                              <li><a href="#">Exams</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#" class="desktop-link">Aptitude</a>
+                            <input type="checkbox" id="show-items">
+                            <label for="show-items">Aptitude</label>
+                            <ul>
+                              <li><a href="#">Lab</a></li>
+                              <li><a href="#">Theory</a></li>
+                              <li><a href="#">Exams</a></li>
+                            </ul>
+                          </li>
+                      <li>
+                        <a href="#" class="desktop-link">Data Structures</a>
+                        <input type="checkbox" id="show-items">
+                        <label for="show-items">Data Structures</label>
                         <ul>
-                            <li>Java 
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>Aptitude
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>Data structures 
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>DBMS 
-                                <ul>
-                                    <a href="Dbms.html"><li>Lab</li></a>
-                                    <a href="Dbms.html"><li>Theory</li></a>
-                                    <a href="Dbms.html"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>NOA
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>COA
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
+                          <li><a href="#">Lab</a></li>
+                          <li><a href="#">Theory</a></li>
+                          <li><a href="#">Exams</a></li>
                         </ul>
-                    </li>
-                    <li>21GM
+                      </li>
+                      <li>
+                        <a href="#" class="desktop-link">NOA</a>
+                        <input type="checkbox" id="show-items">
+                        <label for="show-items">NOA</label>
                         <ul>
-                            <li>C Language
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>Digital electronics
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>Biology
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>Mathematics
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>beee 
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
-                            <li>Quantam 
-                                <ul>
-                                    <a href="#"><li>Lab</li></a>
-                                    <a href="#"><li>Theory</li></a>
-                                    <a href="#"><li>Practise Question</li></a>
-                                </ul>
-                            </li>
+                          <li><a href="#">Lab</a></li>
+                          <li><a href="#">Theory</a></li>
+                          <li><a href="#">Exams</a></li>
                         </ul>
-                    </li>
-                    <li>Aptitude
+                      </li>
+                      <li>
+                        <a href="#" class="desktop-link">COA</a>
+                        <input type="checkbox" id="show-items">
+                        <label for="show-items">COA</label>
                         <ul>
-                            <a href="#"><li>DropDown1</li></a>
-                            <li>DropDown2 
-                                <ul>
-                                    <a href="#"><li>DropDownM</li></a>
-                                    <a href="#"><li>DropDownN </li></a>
-                                    <a href="#"><li>DropDownO</li></a>
-                                </ul>
-                            </li>
-                            <a href="#"><li>DropDown3</li></a>
+                          <li><a href="#">Lab</a></li>
+                          <li><a href="#">Theory</a></li>
+                          <li><a href="#">Exams</a></li>
                         </ul>
-                    </li>
-                    
-                    <a href="#"><li>About Us</li></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">21Greatmates</a>
+                    <input type="checkbox" id="show-services">
+                    <label for="show-services">21Greatmates</label>
+                    <ul>
+                      <li>
+                        <a href="#" class="desktop-link">C Language</a>
+                        <input type="checkbox" id="show-items">
+                        <label for="show-items">C Language</label>
+                        <ul>
+                          <li><a href="#">Lab</a></li>
+                          <li><a href="#">Theory</a></li>
+                          <li><a href="#">Exams</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#" class="desktop-link">Digital electronics</a>
+                        <input type="checkbox" id="show-items">
+                        <label for="show-items">Digital electronics</label>
+                        <ul>
+                          <li><a href="#">Lab</a></li>
+                          <li><a href="#">Theory</a></li>
+                          <li><a href="#">Exams</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#" class="desktop-link">Biology</a>
+                        <input type="checkbox" id="show-items">
+                        <label for="show-items">Biology</label>
+                        <ul>
+                          <li><a href="#">Lab</a></li>
+                          <li><a href="#">Theory</a></li>
+                          <li><a href="#">Exams</a></li>
+                        </ul>
+                      </li>
+                  <li>
+                    <a href="#" class="desktop-link">Mathematics</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">Mathematics</label>
+                    <ul>
+                      <li><a href="#">Lab</a></li>
+                      <li><a href="#">Theory</a></li>
+                      <li><a href="#">Exams</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">BEEE</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">BEEE</label>
+                    <ul>
+                      <li><a href="#">Lab</a></li>
+                      <li><a href="#">Theory</a></li>
+                      <li><a href="#">Exams</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">Quantam</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">Quantam</label>
+                    <ul>
+                      <li><a href="#">Lab</a></li>
+                      <li><a href="#">Theory</a></li>
+                      <li><a href="#">Exams</a></li>
+                    </ul>
+                  </li>
+                          
+                          
+                      
+                    </ul>
+                  </li>
+                  <li><a href="#">Feedback</a></li>
                 </ul>
-            </div>
-        </nav>
+              </div>
+              <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+              <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+              </form>
+            </nav>
+          </div>
         <main>
             <div class="left-container">
                 <form action="#" method="get"><div class="search">
